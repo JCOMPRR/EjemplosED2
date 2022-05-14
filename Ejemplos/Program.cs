@@ -45,9 +45,12 @@
 //Console.WriteLine(pudo);
 
 
+using System.Collections.Generic;
+
 string cadena = "Hola|Mundo Jose";
-string[] text = cadena.Split('|', ' ',);
-foreach(string s in text)
+//string[] text = cadena.Split('|', ' ',);
+List<string> text = cadena.Split('|', ' ').ToList();
+foreach (string s in text)
 {
     Console.WriteLine(s);
 }   
