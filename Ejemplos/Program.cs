@@ -45,5 +45,10 @@
 //Console.WriteLine(pudo);
 
 
-string cadena = "Hola Mundo";
-Console.WriteLine(cadena.IndexOf(" "));
+string cadena = "Hola|Mundo Jose";
+string[] text = cadena.Split('|', ' ',);
+foreach(string s in text)
+{
+    Console.WriteLine(s);
+}   
+//Console.WriteLine(cadena.IndexOf(" "));
